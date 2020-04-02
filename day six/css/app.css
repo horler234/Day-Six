@@ -136,4 +136,18 @@ footer {
     display: block;
     padding: 1rem 0; } }
 
+@media (max-width: 768px) {
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .first-image, .second-image {
+    width: 100%; }
+
+  .third-image,
+  .fourth-image {
+    width: 100%; }
+}
+
 /*# sourceMappingURL=app.css.map */
